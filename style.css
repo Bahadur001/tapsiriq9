@@ -1,0 +1,192 @@
+body{
+    background-color: rgb(121, 95, 85);
+}
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poltawski Nowy", serif;
+}
+.navbar{
+    background-color: rgb(212, 162, 101);
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center; 
+    position: fixed;
+    padding: -20px;
+    z-index: 1000;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+    
+}
+.menu{
+  width: 50px;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+   
+.logo img{
+    width: 100px;
+}
+
+ul {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    display: inline-block;
+    margin-right: 80px;
+    padding: 50px;
+   
+    
+    
+    
+}
+li img{
+    height: 150px;
+    margin-left: -50px;
+ padding-top: 30px;
+}
+
+a {
+    color: rgb(8, 1, 1);
+  
+}
+.logo img{
+    float: left;
+    margin-right:100px;
+}
+.modern{
+    background-image: url(imags\ 2.jpg);
+    background-position: center;
+    width: 200vh;
+    height: 100vh;
+    padding-top: 100px;
+    background-size: cover;
+    text-align: center;
+    text-shadow: 2px 2px 4px #aeff00;
+padding-bottom: 50px;
+
+}
+.product{
+    text-align: center;
+  
+}
+
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    background-color: antiquewhite;
+        
+}
+.shop img{
+    width: 100%;
+    border-radius: 25px;
+   border: 8px;
+}
+button{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+        background-color: rgb(255, 255, 255);}
+
+       
+.jel{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+        border-radius: 15px;
+        align-items: center;
+            margin:50px , 0;
+            font-size: 2cap;
+            background-color: rgb(241, 243, 243);
+            padding: 20px;
+            position: relative;
+}
+.buy{
+    display: flex;
+
+  gap: 10px;
+  padding: 8px;
+  color: rgb(0, 0, 0);}
+
+
+  .con_text{
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 2cap;
+  
+  }
+  .avropa{text-align: center;
+    background-image: url(imags.jpg);
+    background-position: center;
+    width: 200vh;
+    height: 100vh;
+color: beige;
+    background-size: cover;
+    text-align: center;
+    
+padding-top: 130px;
+background-blend-mode: darken;
+background-color: rgba(0,0,0,0.7);
+}
+  
+  i {
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    position: absolute;
+    top: 35px;
+   right: 10px;
+    cursor: pointer;
+    
+
+}
+.fa-earth-americas{
+    margin-right: 120px;
+font-size: 50px;
+right: -70px;
+position: absolute;
+}
+
+.gallery{
+    padding-left: 700px;
+    width: 800px;
+    display: flex;
+    overflow-x: scroll;
+    
+}
+.gallery div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    padding: 5px;
+    flex:none;
+}
+.gallery div img{
+    width: 80%;
+
+}
+.gallery ::-webkit-scrollbar{
+    display: none;
+}
+
+.easy{
+    padding-right: 1000px;
+    padding-left: 10px;
+   
+
+}
+.hard{
+    text-align: center;
+}
